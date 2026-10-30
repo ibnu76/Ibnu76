@@ -2,7 +2,7 @@
 
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=26&pause=1200&color=00E0FF&center=true&vCenter=true&width=520&lines=Ship+fast.+Break+nothing.;ML+Infra+%7C+GPU+Systems+%7C+Web3;Building+tools+that+scale;Always+shipping%2C+always+learning" alt="Typing SVG" />
 
-  <br/><br/>
+  <br/>
 
   <img src="https://komarev.com/ghpvc/?username=Ibnu76&style=flat-square&color=00e0ff&label=VISITORS" alt="views" />
   <a href="https://github.com/Ibnu76?tab=followers"><img src="https://img.shields.io/github/followers/Ibnu76?style=flat-square&color=00e0ff&labelColor=0d1117&logo=github" alt="followers" /></a>
@@ -11,18 +11,35 @@
 
 <br/>
 
-## <img src="https://unpkg.com/lucide-static@latest/icons/fingerprint.svg" width="20" height="20" /> whoami
+## whoami
 
-I build GPU infrastructure tooling and ML pipelines — benchmarking AMD MI300X
-accelerators, optimizing LLM inference throughput, and shipping fine-tuning
-workflows on ROCm. On the side, I write security tools and hack on Web3
-protocols.
+I build tooling for GPU infrastructure and ML pipelines. Most of that work is benchmarking AMD MI300X accelerators, getting LLM inference throughput up on ROCm, and shipping fine tuning workflows that run in production. On the side I do security research on Web3 protocols, mostly smart contracts, with Foundry proof of concepts that can be rerun from a clean checkout.
 
-Current focus: making AMD GPUs a first-class citizen for LLM workloads.
+These days I focus on developer tooling that holds up in production, and on security research where the proof is reproducible.
 
 <br/>
 
-## <img src="https://unpkg.com/lucide-static@latest/icons/layers.svg" width="20" height="20" /> stack
+## Security research
+
+I report as Ibnu. This section lists only credits a vendor has published themselves. I do not post details or proof of concepts here until the vendor has published a fix or an advisory.
+
+- Verisphere (2026). Public disclosure history in [VerisphereVSP/core SECURITY.md](https://github.com/VerisphereVSP/core/blob/main/SECURITY.md): VSP-SEC-001 from August 2026, and VSP-SEC-003 and VSP-SEC-004 from October 2026, deployed on mainnet on 18 October 2026. All three were reported by @ibnu76 and all three are fixed.
+- Aevum Protocol (October 2026). Acknowledged by the vendor at [app.aevumprotocol.io/security](https://app.aevumprotocol.io/security): certificate return labeling and submission count issues in VerifiableBacktestOracleV2.
+- Clip Wallet (October 2026). Acknowledged in the vendor's SECURITY.md. The advisory is pending after the next signed release, so details stay private until then.
+
+Reports that are still waiting on a vendor verdict or an advisory stay private and are not listed here.
+
+<br/>
+
+## Featured projects
+
+- batok. A lightweight CLI toolkit for security recon and automation.
+- llm-bench. Automated LLM provider benchmarking for latency, cost, hallucination rate, and quality scoring.
+- forge-kit. A smart contract testing toolkit for Foundry, with assertion helpers, fork utilities, gas snapshots, and fuzzing harnesses.
+
+<br/>
+
+## stack
 
 <div align="center">
 
@@ -39,7 +56,7 @@ Current focus: making AMD GPUs a first-class citizen for LLM workloads.
 
 <br/>
 
-## <img src="https://unpkg.com/lucide-static@latest/icons/activity.svg" width="20" height="20" /> Stats
+## Stats
 
 <div align="center">
 
@@ -55,5 +72,5 @@ Current focus: making AMD GPUs a first-class citizen for LLM workloads.
 <br/>
 
 <div align="center">
-  <sub>From benchmarks to production — one commit at a time.</sub>
+  <sub>From benchmarks to production, one commit at a time.</sub>
 </div>
