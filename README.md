@@ -19,6 +19,14 @@ These days I focus on developer tooling that holds up in production, and on secu
 
 <br/>
 
+## Featured projects
+
+- batok. A lightweight CLI toolkit for security recon and automation.
+- llm-bench. Automated LLM provider benchmarking for latency, cost, hallucination rate, and quality scoring.
+- forge-kit. A smart contract testing toolkit for Foundry, with assertion helpers, fork utilities, gas snapshots, and fuzzing harnesses.
+
+<br/>
+
 ## Security research
 
 I report as Ibnu. This section lists only credits a vendor has published themselves. I do not post details or proof of concepts here until the vendor has published a fix or an advisory.
@@ -28,14 +36,6 @@ I report as Ibnu. This section lists only credits a vendor has published themsel
 - Clip Wallet (October 2026). Acknowledged in the vendor's SECURITY.md. The advisory is pending after the next signed release, so details stay private until then.
 
 Reports that are still waiting on a vendor verdict or an advisory stay private and are not listed here.
-
-<br/>
-
-## Featured projects
-
-- batok. A lightweight CLI toolkit for security recon and automation.
-- llm-bench. Automated LLM provider benchmarking for latency, cost, hallucination rate, and quality scoring.
-- forge-kit. A smart contract testing toolkit for Foundry, with assertion helpers, fork utilities, gas snapshots, and fuzzing harnesses.
 
 <br/>
 
